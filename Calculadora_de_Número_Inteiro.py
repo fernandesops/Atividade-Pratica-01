@@ -3,11 +3,11 @@
 # Entrada: O arquivo de entrada contém 4 valores inteiros. 
 # Saída: Imprima a mensagem "DIFERENCA = " com todas as letras maiúsculas.
 
-a = 6
-b = 8
-c = 12
-d = 22
+a = int(input("Digite o valor A"))
+b = int(input("Digite o valor B"))
+c = int(input("Digite o valor C"))
+d = int(input("Digite o valor D"))
 
-diferenca = (a * b - c * d)
+diferenca = ((a * b) - (c * d))
 
 print(f"DIFERENCA = {diferenca}")
